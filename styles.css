@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("Personal\ Vision\ Board.jpg");
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.input-group,
+.expense-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #7d84c5;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000d7c;
+}
+
+.expense-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background: #e9ecef;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.expense-list button {
+    background-color: red;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.balance-display {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.input-group label {
+    font-size: 20px;
+    color: #586acc;
+    font-weight: bold;
+    margin-top: 2px;
+}
